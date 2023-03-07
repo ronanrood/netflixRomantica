@@ -1,0 +1,60 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141414;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.containerCardProfile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titleLogin{
+    font-size: 36px;
+    font-family: open sans;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.cardProfile{
+    display: flex;
+    flex-direction: column;
+}
+.cardProfile > img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.nameCardProfile{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: open sans;
+    text-align: center;
+}
+.bttGenProfile{
+    margin-top: 25px;
+    width: 140px;
+    height: 30px;
+    border: 2px solid #808080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bttGenProfile > a{
+    font-family: open sans;
+    font-size: 16px;
+    text-decoration: none;
+    color: #808080;
+}
