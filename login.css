@@ -32,7 +32,7 @@ body{
     flex-direction: column;
 }
 .cardProfile > img{
-    width: 200px;
+    width: 180px;
     height: 200px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -57,4 +57,9 @@ body{
     font-size: 16px;
     text-decoration: none;
     color: #808080;
+}
+@media screen and (min-width:320px) {
+    .titleLogin{
+        font-size: 28px;
+    }
 }
