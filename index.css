@@ -10,10 +10,11 @@ body{
     transition: 1s;
 }
 header{
+position: sticky;
 display: flex;
 justify-content: space-between;
 background: transparent;
-
+z-index: 9
 }
 .leftHeader{
     display: flex;
@@ -26,14 +27,12 @@ background: transparent;
     height: 50px;
     cursor: pointer;
 }
-
 .leftHeader > h4{
     font-family: Open Sans;
     font-weight: 300;
     color: #ffff;
     cursor: pointer;
 }
-
 .rigthHeader{
     display: flex;
     align-items: center;
@@ -52,4 +51,50 @@ background: transparent;
     width: 30px;
     height: 30px;
     cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.backgroundMain > img{
+    width: 100vw;
+    height: 500px;
+    display: block;
+    position: absolute;
+    
+}
+.titleMain{
+    position: relative;
+    color: #ffff;
+    font-family: Open Sans;
+    
+}
+.subTitleMain > h3{
+    position: relative;
+    color: #ffff;
+    font-family: Open Sans;
+    font-weight: 300;
+}
+.buttonMain{
+    position: relative;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.buttonMain > a{
+    position: relative;
+    background-color: white;
+    color: black;
+    font-family: Open Sans;
+    font-weight: 700;
+
+    text-decoration: none;
+}
+.buttonMain:hover{
+    border-bottom: 3px solid red;
 }
