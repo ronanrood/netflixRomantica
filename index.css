@@ -1,133 +1,215 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #000;
-    transition: 1s;
+body {
+  background-color: #000;
+  transition: 1s;
 }
-header{
-position: sticky;
-display: flex;
-justify-content: space-between;
-background: transparent;
-z-index: 9
+header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  z-index: 9;
 }
-.leftHeader{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    padding-left: 30px;
+.leftHeader {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-left: 30px;
 }
-.leftHeader > img{
-    width: 70px;
-    height: 50px;
-    cursor: pointer;
+.leftHeader > img {
+  width: 70px;
+  height: 50px;
+  cursor: pointer;
 }
-.leftHeader > h4{
-    font-family: Open Sans;
-    font-weight: 300;
-    color: #ffff;
-    cursor: pointer;
+.leftHeader > h4 {
+  font-family: Open Sans;
+  font-weight: 300;
+  color: #ffff;
+  cursor: pointer;
 }
-.rigthHeader{
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    padding-right: 30px;
+.rigthHeader {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding-right: 30px;
 }
-.rigthHeader > a > img{
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
+.rigthHeader > a > img {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
 }
-.rigthHeader > a > img:hover{
-    transform: scale(1.1);
+.rigthHeader > a > img:hover {
+  transform: scale(1.1);
 }
-.rigthHeader > img{
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
+.rigthHeader > img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
-main{
-    display: flex;
-    flex-direction: column;
-    position: relative;
+main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
-.backgroundMain > img{
-    width: 100vw;
-    height: 500px;
-    display: block;
-    position: absolute;
-    
+.backgroundMain > img {
+  width: 100vw;
+  height: 500px;
+  display: block;
+  position: absolute;
 }
-.titleMain{
-    position: relative;
-    color: #ffff;
-    font-family: Open Sans;
-    
+.subBackgroundMain > img{
+    display: none;
 }
-.subTitleMain > h3{
-    position: relative;
-    color: #ffff;
-    font-family: Open Sans;
-    font-weight: 300;
+.titleMain {
+  position: relative;
+  color: #ffff;
+  font-family: Open Sans;
 }
-.buttonMain{
-    position: relative;
-    height: 40px;
-    width: 100px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
+.subTitleMain > h3 {
+  position: relative;
+  color: #ffff;
+  font-family: Open Sans;
+  font-weight: 300;
 }
-.buttonMain > a{
-    position: relative;
-    background-color: white;
-    color: black;
-    font-family: Open Sans;
-    font-weight: 700;
+.buttonMain {
+  position: relative;
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.buttonMain > a {
+  position: relative;
+  background-color: white;
+  color: black;
+  font-family: Open Sans;
+  font-weight: 700;
 
-    text-decoration: none;
+  text-decoration: none;
 }
-.buttonMain:hover{
-    border-bottom: 3px solid red;
+.buttonMain:hover {
+  border-bottom: 3px solid red;
 }
-.containerTitleMain{
-    padding-left: 30px;
-    padding-top: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.containerTitleMain {
+  padding-left: 30px;
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
-.emAltaMain{
-    height: 350px;
-    margin-top: 60px;
-    padding-left: 30px;
-    display: flex;
-    flex-direction: column;
+.emAltaMain {
+margin-bottom: 60px;
+  margin-top: 60px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
 }
-.emAltaTitle{
-    font-family: Open sans;
-    font-size: 30px;
-    color: #ffff;
-    padding-bottom: 20px;
+.emAltaTitle {
+  font-family: Open sans;
+  font-size: 30px;
+  color: #ffff;
+  padding-bottom: 20px;
 }
-.emAltaTitle >p:hover{
-    color: gray
+.emAltaTitle > p:hover {
+  color: gray;
 }
-.emAltaContent > a >  img {
-    height: 130px;
-    width: 230px;
-    padding-left: 20px;
-    transition: 0.5s;
+.emAltaContent > a > img {
+  height: 130px;
+  width: 230px;
+  padding-left: 20px;
+  transition: 0.5s;
 }
-.emAltaContent > a >  img:hover{
-    transform: scale(1.1);
+.emAltaContent > a > img:hover {
+  transform: scale(1.1);
 }
+.assistirNovamente {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 150px
+}
+.assistirNovamenteTitle {
+  font-family: Open sans;
+  font-size: 30px;
+  color: #ffff;
+  margin-bottom: 20px;
+}
+.assistirNovamenteTitle > p:hover {
+  color: gray;
+}
+.assistirNovamenteContent > a > img {
+  height: 130px;
+  width: 230px;
+  padding-left: 20px;
+  transition: 0.5s;
+}
+.assistirNovamenteContent > a > img:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width:505px) {
+    .emAltaContent {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -10px;
+    }
+    .emAltaContent > a > img{
+        width: 160px;
+        height: 100px;
+    }
+    .assistirNovamenteContent{
+        display: flex;
+        flex-direction: row; 
+        margin-bottom: 150px;
+    }
+    .assistirNovamenteContent > a > img{
+        width: 160px;
+        height: 100px;
+        
+    }
+    .subBackgroundMain > img {
+        width: 100vw;
+        height: 400px;
+        display: block;
+        position: absolute;
+        border-radius: 10px;
+      } 
+      .backgroundMain > img {
+        display: none;
+      }
 
+      .titleMain {
+        position: relative;
+        color: #ffff;
+        font-family: Open Sans;
+      }
+      .subTitleMain > h3 {
+        position: relative;
+        color: #ffff;
+        font-family: Open Sans;
+        font-weight: 300;
+      }
+      .containerTitleMain {
+        padding-left: 20px;
+        padding-top: 180px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .leftHeader {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        padding-left: 10px;
+        padding-right: 50px;
+      }
+      
+}
