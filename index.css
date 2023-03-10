@@ -8,6 +8,7 @@
 body {
   background-color: #000;
   transition: 1s;
+  overflow-x: hidden;
 }
 header {
   position: sticky;
